@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "734999391795",
+    "project_id": "salessignup-e1821",
+    "storage_bucket": "salessignup-e1821.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:734999391795:android:f71d8099c16b6167ccfd46",
+        "android_client_info": {
+          "package_name": "com.ctis487_fp.finalproject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1zeUJXUUaHm_bpGavafeAQPC03Q3C3dE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

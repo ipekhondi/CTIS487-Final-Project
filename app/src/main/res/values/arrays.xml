@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="medicine_types">
+        <item>Type One</item>
+        <item>Type Two</item>
+    </string-array>
+</resources>

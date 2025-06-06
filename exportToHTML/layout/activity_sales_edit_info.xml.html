@@ -1,0 +1,172 @@
+<html>
+<head>
+<title>activity_sales_edit_info.xml</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #d5b778;}
+.s1 { color: #bcbec4;}
+.s2 { color: #6aab73;}
+.s3 { color: #bcbec4;}
+.s4 { color: #7a7e85;}
+</style>
+</head>
+<body bgcolor="#1e1f22">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+activity_sales_edit_info.xml</font>
+</center></td></tr></table>
+<pre><span class="s0">&lt;?</span><span class="s1">xml version</span><span class="s2">=&quot;1.0&quot; </span><span class="s1">encoding</span><span class="s2">=&quot;utf-8&quot;</span><span class="s0">?&gt;</span>
+<span class="s0">&lt;androidx.constraintlayout.widget.ConstraintLayout </span><span class="s1">xmlns:android</span><span class="s2">=&quot;http://schemas.android.com/apk/res/android&quot;</span>
+    <span class="s1">xmlns:app</span><span class="s2">=&quot;http://schemas.android.com/apk/res-auto&quot;</span>
+    <span class="s1">xmlns:tools</span><span class="s2">=&quot;http://schemas.android.com/tools&quot;</span>
+    <span class="s1">android:id</span><span class="s2">=&quot;@+id/main&quot;</span>
+    <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+    <span class="s1">android:layout_height</span><span class="s2">=&quot;match_parent&quot;</span>
+    <span class="s1">android:background</span><span class="s2">=&quot;#B9E98E&quot;</span>
+    <span class="s1">android:padding</span><span class="s2">=&quot;24dp&quot;</span>
+    <span class="s1">tools:context</span><span class="s2">=&quot;.sales.SalesEditInfo&quot;</span><span class="s0">&gt;</span>
+
+    <span class="s4">&lt;!-- Title --&gt;</span>
+    <span class="s0">&lt;com.google.android.material.textview.MaterialTextView</span>
+        <span class="s1">android:id</span><span class="s2">=&quot;@+id/tvTitle&quot;</span>
+        <span class="s1">android:layout_width</span><span class="s2">=&quot;wrap_content&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+        <span class="s1">android:layout_marginTop</span><span class="s2">=&quot;24dp&quot;</span>
+        <span class="s1">android:text</span><span class="s2">=&quot;Edit Information&quot;</span>
+        <span class="s1">android:textAppearance</span><span class="s2">=&quot;@style/TextAppearance.Material3.HeadlineMedium&quot;</span>
+        <span class="s1">app:layout_constraintEnd_toEndOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintStart_toStartOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintTop_toTopOf</span><span class="s2">=&quot;parent&quot; </span><span class="s0">/&gt;</span>
+
+    <span class="s4">&lt;!-- Subtitle --&gt;</span>
+    <span class="s0">&lt;com.google.android.material.textview.MaterialTextView</span>
+        <span class="s1">android:id</span><span class="s2">=&quot;@+id/tvSubtitle&quot;</span>
+        <span class="s1">android:layout_width</span><span class="s2">=&quot;wrap_content&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+        <span class="s1">android:layout_marginTop</span><span class="s2">=&quot;8dp&quot;</span>
+        <span class="s1">android:text</span><span class="s2">=&quot;Update your sales details&quot;</span>
+        <span class="s1">android:textAppearance</span><span class="s2">=&quot;@style/TextAppearance.Material3.BodyLarge&quot;</span>
+        <span class="s1">android:textColor</span><span class="s2">=&quot;?android:textColorSecondary&quot;</span>
+        <span class="s1">app:layout_constraintEnd_toEndOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintStart_toStartOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintTop_toBottomOf</span><span class="s2">=&quot;@id/tvTitle&quot; </span><span class="s0">/&gt;</span>
+
+    <span class="s4">&lt;!-- Edit Info Card --&gt;</span>
+    <span class="s0">&lt;com.google.android.material.card.MaterialCardView</span>
+        <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+        <span class="s1">android:layout_marginTop</span><span class="s2">=&quot;32dp&quot;</span>
+        <span class="s1">app:cardCornerRadius</span><span class="s2">=&quot;16dp&quot;</span>
+        <span class="s1">app:cardElevation</span><span class="s2">=&quot;0dp&quot;</span>
+        <span class="s1">app:layout_constraintTop_toBottomOf</span><span class="s2">=&quot;@id/tvSubtitle&quot;</span>
+        <span class="s1">app:strokeColor</span><span class="s2">=&quot;?colorOutline&quot;</span>
+        <span class="s1">app:strokeWidth</span><span class="s2">=&quot;1dp&quot;</span><span class="s0">&gt;</span>
+
+        <span class="s0">&lt;LinearLayout</span>
+            <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+            <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+            <span class="s1">android:orientation</span><span class="s2">=&quot;vertical&quot;</span>
+            <span class="s1">android:padding</span><span class="s2">=&quot;16dp&quot;</span><span class="s0">&gt;</span>
+
+            <span class="s4">&lt;!-- Name Input --&gt;</span>
+            <span class="s0">&lt;com.google.android.material.textfield.TextInputLayout</span>
+                <span class="s1">android:id</span><span class="s2">=&quot;@+id/tilSalesName&quot;</span>
+                <span class="s1">style</span><span class="s2">=&quot;@style/Widget.Material3.TextInputLayout.OutlinedBox&quot;</span>
+                <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:hint</span><span class="s2">=&quot;Full Name&quot;</span>
+                <span class="s1">app:endIconMode</span><span class="s2">=&quot;clear_text&quot;</span><span class="s0">&gt;</span>
+
+                <span class="s0">&lt;com.google.android.material.textfield.TextInputEditText</span>
+                    <span class="s1">android:id</span><span class="s2">=&quot;@+id/etSalesName&quot;</span>
+                    <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                    <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                    <span class="s1">android:inputType</span><span class="s2">=&quot;textPersonName&quot; </span><span class="s0">/&gt;</span>
+            <span class="s0">&lt;/com.google.android.material.textfield.TextInputLayout&gt;</span>
+
+            <span class="s4">&lt;!-- Email Input --&gt;</span>
+            <span class="s0">&lt;com.google.android.material.textfield.TextInputLayout</span>
+                <span class="s1">android:id</span><span class="s2">=&quot;@+id/tilSalesEmail&quot;</span>
+                <span class="s1">style</span><span class="s2">=&quot;@style/Widget.Material3.TextInputLayout.OutlinedBox&quot;</span>
+                <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:layout_marginTop</span><span class="s2">=&quot;16dp&quot;</span>
+                <span class="s1">android:hint</span><span class="s2">=&quot;Email&quot;</span>
+                <span class="s1">app:endIconMode</span><span class="s2">=&quot;clear_text&quot;</span><span class="s0">&gt;</span>
+
+                <span class="s0">&lt;com.google.android.material.textfield.TextInputEditText</span>
+                    <span class="s1">android:id</span><span class="s2">=&quot;@+id/etSalesEmail&quot;</span>
+                    <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                    <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                    <span class="s1">android:inputType</span><span class="s2">=&quot;textEmailAddress&quot; </span><span class="s0">/&gt;</span>
+            <span class="s0">&lt;/com.google.android.material.textfield.TextInputLayout&gt;</span>
+
+            <span class="s4">&lt;!-- Password Input --&gt;</span>
+            <span class="s0">&lt;com.google.android.material.textfield.TextInputLayout</span>
+                <span class="s1">android:id</span><span class="s2">=&quot;@+id/tilSalesPassword&quot;</span>
+                <span class="s1">style</span><span class="s2">=&quot;@style/Widget.Material3.TextInputLayout.OutlinedBox&quot;</span>
+                <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:layout_marginTop</span><span class="s2">=&quot;16dp&quot;</span>
+                <span class="s1">android:hint</span><span class="s2">=&quot;Password&quot;</span>
+                <span class="s1">app:endIconMode</span><span class="s2">=&quot;clear_text&quot;</span><span class="s0">&gt;</span>
+
+                <span class="s0">&lt;com.google.android.material.textfield.TextInputEditText</span>
+                    <span class="s1">android:id</span><span class="s2">=&quot;@+id/etSalesPassword&quot;</span>
+                    <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                    <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                    <span class="s1">android:inputType</span><span class="s2">=&quot;textPassword&quot; </span><span class="s0">/&gt;</span>
+            <span class="s0">&lt;/com.google.android.material.textfield.TextInputLayout&gt;</span>
+
+            <span class="s4">&lt;!-- Phone Input --&gt;</span>
+            <span class="s0">&lt;com.google.android.material.textfield.TextInputLayout</span>
+                <span class="s1">android:id</span><span class="s2">=&quot;@+id/tilSalesPhone&quot;</span>
+                <span class="s1">style</span><span class="s2">=&quot;@style/Widget.Material3.TextInputLayout.OutlinedBox&quot;</span>
+                <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:layout_marginTop</span><span class="s2">=&quot;16dp&quot;</span>
+                <span class="s1">android:hint</span><span class="s2">=&quot;Phone Number&quot;</span>
+                <span class="s1">app:endIconMode</span><span class="s2">=&quot;clear_text&quot;</span><span class="s0">&gt;</span>
+
+                <span class="s0">&lt;com.google.android.material.textfield.TextInputEditText</span>
+                    <span class="s1">android:id</span><span class="s2">=&quot;@+id/etSalesPhone&quot;</span>
+                    <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                    <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                    <span class="s1">android:inputType</span><span class="s2">=&quot;phone&quot; </span><span class="s0">/&gt;</span>
+            <span class="s0">&lt;/com.google.android.material.textfield.TextInputLayout&gt;</span>
+
+            <span class="s4">&lt;!-- Region Input --&gt;</span>
+            <span class="s0">&lt;com.google.android.material.textfield.TextInputLayout</span>
+                <span class="s1">android:id</span><span class="s2">=&quot;@+id/tilSalesRegion&quot;</span>
+                <span class="s1">style</span><span class="s2">=&quot;@style/Widget.Material3.TextInputLayout.OutlinedBox&quot;</span>
+                <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:layout_marginTop</span><span class="s2">=&quot;16dp&quot;</span>
+                <span class="s1">android:hint</span><span class="s2">=&quot;Sales Region&quot;</span>
+                <span class="s1">app:endIconMode</span><span class="s2">=&quot;clear_text&quot;</span><span class="s0">&gt;</span>
+
+                <span class="s0">&lt;com.google.android.material.textfield.TextInputEditText</span>
+                    <span class="s1">android:id</span><span class="s2">=&quot;@+id/etSalesRegion&quot;</span>
+                    <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                    <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                    <span class="s1">android:inputType</span><span class="s2">=&quot;text&quot; </span><span class="s0">/&gt;</span>
+            <span class="s0">&lt;/com.google.android.material.textfield.TextInputLayout&gt;</span>
+
+            <span class="s4">&lt;!-- Update Button --&gt;</span>
+            <span class="s0">&lt;com.google.android.material.button.MaterialButton</span>
+                <span class="s1">android:id</span><span class="s2">=&quot;@+id/editBtn&quot;</span>
+                <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:layout_marginTop</span><span class="s2">=&quot;24dp&quot;</span>
+                <span class="s1">android:padding</span><span class="s2">=&quot;12dp&quot;</span>
+                <span class="s1">android:text</span><span class="s2">=&quot;Update Information&quot;</span>
+                <span class="s1">app:backgroundTint</span><span class="s2">=&quot;@color/green&quot;</span>
+                <span class="s1">app:cornerRadius</span><span class="s2">=&quot;12dp&quot; </span><span class="s0">/&gt;</span>
+        <span class="s0">&lt;/LinearLayout&gt;</span>
+    <span class="s0">&lt;/com.google.android.material.card.MaterialCardView&gt;</span>
+
+<span class="s0">&lt;/androidx.constraintlayout.widget.ConstraintLayout&gt;</span>
+</pre>
+</body>
+</html>
