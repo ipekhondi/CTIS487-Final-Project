@@ -1,4 +1,4 @@
-# FinalProject - Android Notes Application
+# FinalProject - Android Notes Application - MediDoor
 
 This is an Android application developed as a final project for the CTIS487 course. The app is structured using Kotlin and follows modern Android development practices. It likely features components such as activities, background workers, and animations.
 
