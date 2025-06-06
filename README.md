@@ -23,7 +23,7 @@ This is an Android application developed as a final project for the CTIS487 cour
 
 ## Getting Started
 
-*Important: In app/src/google-services.json, on line 18, for security reasons, please replace the API key with your own Firebase API key before running the project.*
+** *Important: In app/src/google-services.json, on line 18, for security reasons, please replace the API key with your own Firebase API key before running the project.* **
 
 1. **Clone the repository**  
    ```bash
